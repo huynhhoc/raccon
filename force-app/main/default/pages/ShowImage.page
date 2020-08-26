@@ -1,6 +1,0 @@
-<apex:page >
-    <!-- Add the static resource to page's <head> -->
-    <apex:includeScript value="{! $Resource.vfimagetest }"/>
-    <apex:image alt="eye" title="eye"
-                url="{!URLFOR($Resource.vfimagetest, 'cats/kitten1.jpg')}"/>
-</apex:page>
